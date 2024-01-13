@@ -1,13 +1,28 @@
 :root {
-  --heading-font-family: "Alumni Sans, sans-serif;";
-  --logo-color: #08e8de;
+--heading-font-family: 'Alumni Sans', sans-serif;
+  --logo-color: #04a7e3;
+  --secondary-color: #ddf2fa;
 }
 
 body {
   font-family: var(--heading-font-family);
 }
-h1,
-h2 {
-  font-family: var(--heading-font-family);
-  color: var(--logo-color);
+
+h1 {
+  font-size: 135px;
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.button {
+  background: var(--logo-color);
+  border-radius: 4px;
+  color: #032f40;
+  font-size: 25px;
+  
+  line-height: 27px;
+  padding: 15px 30px;
 }
