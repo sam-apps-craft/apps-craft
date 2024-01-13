@@ -1,0 +1,13 @@
+:root {
+  --heading-font-family: "Alumni Sans, sans-serif;";
+  --logo-color: #08e8de;
+}
+
+body {
+  font-family: var(--heading-font-family);
+}
+h1,
+h2 {
+  font-family: var(--heading-font-family);
+  color: var(--logo-color);
+}
