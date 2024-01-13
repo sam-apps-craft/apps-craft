@@ -1,5 +1,5 @@
 :root {
---heading-font-family: 'Alumni Sans', sans-serif;
+  --heading-font-family: "Alumni Sans", sans-serif;
   --logo-color: #04a7e3;
   --secondary-color: #ddf2fa;
 }
@@ -8,8 +8,19 @@ body {
   font-family: var(--heading-font-family);
 }
 
-h1 {
+h2 {
+  font-size: 64px;
+}
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.hero h1 {
   font-size: 135px;
+}
+.hero h2 {
+  font-size: 45px;
 }
 
 .hero {
@@ -21,8 +32,41 @@ h1 {
   background: var(--logo-color);
   border-radius: 4px;
   color: #032f40;
-  font-size: 25px;
-  
+  font-size: 30px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-weather-app {
+  border: 1px solid var(--logo-color);
+  border-radius: 4px;
+  color: #04a7e3;
+  font-size: 30px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.project-description {
+  padding: 55px 60px;
+}
+
+@media (max-width: 960px) {
+  .hero h1 {
+    font-size: 60px;
+  }
+
+  .hero h2 {
+    font-size: 30px;
+  }
+
+  h2{
+    font-size: 40px;
+  }
+  .hero {
+  
+  padding: 80px 20px;
+}
+
+.project-description {
+  padding: 0;
+  text-align: center;
 }
