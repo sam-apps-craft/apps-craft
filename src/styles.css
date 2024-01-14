@@ -8,12 +8,13 @@ body {
   font-family: var(--heading-font-family);
 }
 
-h2 {
-  font-size: 64px;
-}
 p {
   font-size: 20px;
   line-height: 1.5;
+}
+
+img{
+  border-radius: 8px;
 }
 
 .hero h1 {
@@ -28,7 +29,57 @@ p {
   text-align: center;
   padding: 160px 20px;
 }
-.button {
+
+.button-contact {
+  background: var(--logo-color);
+  border-radius: 4px;
+  color: #032f40;
+  font-size: 30px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+  .project-description {
+    padding: 0;
+    text-align: center;
+    padding: 55px 60px;
+  }
+  .project-description h2 {
+  font-size: 64px;
+}
+
+  .btn-app {
+  border: 1px solid var(--logo-color);
+  border-radius: 4px;
+  color: #04a7e3;
+  font-size: 30px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.about-section{
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 60px;
+  line-height: 1;
+  
+}
+.about-section h2 {
+  font-size: 30px;
+  line-height: 1;
+}
+.about-section-content{
+  margin: 60px;
+
+}
+.about-section-content h1{
+margin-top: 200px;
+}
+.about-section-content p{
+  text-align: justify;
+}
+
+.btn-branding {
   background: var(--logo-color);
   border-radius: 4px;
   color: #032f40;
@@ -37,19 +88,14 @@ p {
   padding: 15px 30px;
 }
 
-.btn-weather-app {
-  border: 1px solid var(--logo-color);
-  border-radius: 4px;
-  color: #04a7e3;
-  font-size: 30px;
-  line-height: 27px;
-  padding: 15px 30px;
-}
-.project-description {
-  padding: 55px 60px;
-}
 
-@media (max-width: 960px) {
+
+
+
+
+
+
+@media (max-width: 992px) {
   .hero h1 {
     font-size: 60px;
   }
@@ -58,15 +104,29 @@ p {
     font-size: 30px;
   }
 
-  h2{
+  h2 {
     font-size: 40px;
   }
   .hero {
-  
-  padding: 80px 20px;
-}
+    padding: 80px 20px;
+  }
 
-.project-description {
-  padding: 0;
-  text-align: center;
+  .about-section{
+    text-align: center;
+    padding: 0;
+    margin-top: -100px;
+
+  }
+  .about-section h1{
+ font-size: 40px;
+
+  } .about-section h2{
+ font-size: 25px;
+
+  }
+ 
+  .about-photos{
+    margin: 0;
+  }
+
 }
