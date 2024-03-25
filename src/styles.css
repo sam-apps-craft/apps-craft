@@ -4,15 +4,11 @@
   --secondary-color: #ddf2fa;
 }
 
-body {
-  font-family: var(--heading-font-family);
-}
-
 h4 {
   font-size: 64px;
 }
 p {
-  font-size: 28px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -21,12 +17,15 @@ img {
 }
 
 .hero h1 {
-  font-size: 135px;
+  font-size: 100px;
 }
 .hero h2 {
-  font-size: 45px;
+  font-size: 30px;
 }
 
+.hero h4{
+  font-size: 20px;
+}
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -41,6 +40,10 @@ img {
   font-size: 30px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.work h1 {
+  font-size: 5px;
 }
 .project-description {
   padding: 0;
@@ -61,12 +64,11 @@ img {
 }
 
 .content-container {
-  text-align: center;
   line-height: 1;
 }
 
 .content-container h2 {
-  font-size: 45px;
+  font-size: 25px;
 }
 .content {
   margin: 60px;
@@ -74,21 +76,28 @@ img {
 .content h1 {
   font-size: 70px;
 }
-.content p {
-  text-align: center;
-}
 
 .btn-branding {
   background: var(--logo-color);
   border-radius: 4px;
   color: #032f40;
-  font-size: 30px;
+  font-size: 20px;
 
-  padding: 15px 30px;
+  padding: 5px 5px;
 
-  width: 300px;
+  width: 175px;
 }
-
+.blog{
+  background-color: #04a7e3;
+  padding: 50px;
+  margin: 0 auto;
+}
+.blog h3 {
+  font-size: 45px;
+}
+.blog h4 {
+  font-size: 40px;
+}
 .logo {
   max-height: 50px;
 }
@@ -151,7 +160,7 @@ footer .social-links a:hover {
   background-color: var(--logo-color);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1100px) {
   .hero h1 {
     font-size: 60px;
   }
@@ -175,7 +184,6 @@ footer .social-links a:hover {
   }
 
   .content-container {
-    text-align: center;
     padding: 0;
     margin-top: -75;
   }
