@@ -89,11 +89,11 @@ img {
 }
 .blog{
   background-color: #04a7e3;
-  padding: 50px;
+  padding: 25px;
   margin: 0 auto;
 }
 .blog h3 {
-  font-size: 45px;
+  font-size: 10px;
 }
 .blog h4 {
   font-size: 40px;
@@ -171,7 +171,9 @@ footer .social-links a:hover {
   .hero {
     padding: 80px 20px;
   }
-
+.hero h2 {
+  display: none;
+}
   h2 {
     font-size: 40px;
   }
@@ -182,6 +184,12 @@ footer .social-links a:hover {
   p {
     font-size: 20px;
   }
+
+.blog {
+  font-size: 25px;
+  padding: 10px;
+  background-color: none;
+}
 
   .content-container {
     padding: 0;

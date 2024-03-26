@@ -7,9 +7,7 @@
       name="description"
       content="Front End Web & Mobile Developer based in UK and France"
     />
-    <title>
-      Sam Raymond - Front End Web & Mobile Developer based in UK and France
-    </title>
+    <title>Sam Raymond - Front End Web & Mobile Developer</title>
     <script
       src="https://kit.fontawesome.com/c5c7c7f672.js"
       crossorigin="anonymous"
@@ -39,42 +37,61 @@
 
   <body>
     <div class="container">
-      <nav class="d-flex justify-content-between">
-        <a href="/" title="Homepage">
-          <img
-            src="images/Color logo with background.svg"
-            alt="Apps-Craft-logo"
-            class="logo d-none d-md-block" />
-          <img
-            src="images/iPhone.png"
-            alt="Apps-Craft-logo-small"
-            class="logo d-block d-md-none"
-        /></a>
-        <ul>
-          <li class="active">
-            <a href="/" title="Homepage">Home</a>
-          </li>
-          <li>
-            <a href="/about.html" title="About Sam Raymond">About</a>
-          </li>
-          <li>
-            <a href="/work.html" title="Sam Raymond's Work page">Work</a>
-          </li>
-          <li>
-            <a href="/contact.html" title="Sam Raymond's Contact page"
-              >Contact</a
-            >
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/" title="Homepage">
+            <img
+              src="images/Color logo with background.svg"
+              alt="Apps-Craft-logo"
+              class="logo d-none d-md-block"
+            />
+            <img
+              src="images/iPhone.png"
+              alt="Apps-Craft-logo-small"
+              class="logo d-block d-md-none"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="work.html"
+                  >Work</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </div>
 
     <div class="hero">
       <h1>Sam Raymond</h1>
 
-      <h2 class="mb-5">
-        Front End Web developer based near York, UK and near Avignon, France
-      </h2>
+      <h2 class="mb-5">Front End Web developer</h2>
       <h4 class="mb-5">
         Founder of Apps-Craft, specialising in crafting standout web solutions.
         Expertise in HTML, CSS, JavaScript, Bootstrap, and React.
@@ -89,14 +106,14 @@
       </div>
     </div>
 
-    <div class="container blog">
-      <h3 class="text-center mb-5">Current Work</h3>
+    <div class="container">
+      <h3 class="text-center mb-5 blog">Current Work</h3>
       <div class="row">
         <div class="col-md-6">
           <div class="card">
-            <h4 class="card-title text-center mt-5 mb-5">
+            <h3 class="card-title text-center mt-5 mb-5 blog">
               Russell Road Racing
-            </h4>
+            </h3>
             <img
               src="images/IOM 3.jpg"
               class="card-img-top"
@@ -124,7 +141,9 @@
         </div>
         <div class="col-md-6">
           <div class="card">
-            <h4 class="card-title text-center mt-5 mb-5">Dictionary Web App</h4>
+            <h3 class="card-title text-center mt-5 mb-5 blog">
+              Dictionary Web App
+            </h3>
             <img
               src="images/dictionary.png"
               class="card-img-top"
